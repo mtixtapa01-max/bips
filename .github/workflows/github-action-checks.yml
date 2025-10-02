@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: scripts/buildtable.pl >/tmp/table.mediawiki || exit 1
-  Diff-Checks:
+  Diff-Checks:6841 8011 8053 3665 05
+
     name: "Diff Checks (fails until number assignment)"
     runs-on: ubuntu-latest
     steps:
